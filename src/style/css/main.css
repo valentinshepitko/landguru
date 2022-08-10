@@ -1,0 +1,148 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.background-image {
+  background-image: url("../../../src/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-started {
+  font-weight: 500;
+  font-size: 16px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 13px 31px;
+  color: white;
+}
+.get-started_white {
+  background-color: white;
+  color: #0F2137;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 13px 31px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header {
+  padding-top: 31px;
+  padding-bottom: 110px;
+}
+.header__holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+.header__nav-link {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.header__nav-link:hover {
+  color: #85a6ff;
+  transition: ease-in-out 0.3s;
+}
+
+.hero {
+  position: relative;
+}
+.hero__holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero__title {
+  font-size: 85px;
+  line-height: 100px;
+  color: white;
+  max-width: 668px;
+  padding-bottom: 29px;
+}
+.hero__text {
+  font-weight: 500;
+  line-height: 42px;
+  color: white;
+  max-width: 468px;
+  padding-bottom: 38px;
+}
+.hero__button-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.hero__watch {
+  font-family: "Heebo", sans-serif;
+  color: white;
+}
+.hero__sponsored-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  padding-bottom: 206px;
+}
+.hero__sponsored-title {
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.hero__image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+.hero__pattern {
+  position: absolute;
+  right: 230px;
+  top: 0;
+}
+/*# sourceMappingURL=main.css.map */

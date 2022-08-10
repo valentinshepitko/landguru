@@ -1,0 +1,27 @@
+.header{
+
+  padding-top: 31px;
+  padding-bottom: 110px;
+
+    &__holder{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between ;
+    }
+
+  &__nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+
+  &__nav-link{
+    color: #FFFFFF;
+    font-size: 16px;
+
+    &:hover{
+      color: #85a6ff;
+      transition: ease-in-out 0.3s;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.hero{
+
+  position: relative;
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__title{
+    font-size: 85px;
+    line-height: 100px;
+    color: white;
+    max-width: 668px;
+    padding-bottom: 29px;
+  }
+
+  &__text{
+    font-weight: 500;
+    line-height: 42px;
+    color: white;
+    max-width: 468px;
+    padding-bottom: 38px;
+  }
+
+  &__button-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  &__watch{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+  }
+
+  &__sponsored-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    padding-bottom: 206px;
+  }
+
+  &__sponsored-title{
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+
+  &__image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  }
+
+  &__pattern{
+    position: absolute;
+    right: 230px;
+    top: 0;
+  }
+}
