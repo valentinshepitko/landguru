@@ -59,6 +59,12 @@ img {
   padding: 13px 31px;
   color: white;
 
+  &:hover{
+    background-color: white;
+    color: #85a6ff;
+    transition: ease-in-out 0.3s;
+  }
+
   &_white{
     background-color: white;
     color: #0F2137;
@@ -67,5 +73,11 @@ img {
     padding: 13px 31px;
     font-weight: 500;
     font-size: 16px;
+
+    &:hover{
+      background-color: #1a4fd0;
+      color: white;
+      transition: ease-in-out 0.3s;
+    }
   }
 }

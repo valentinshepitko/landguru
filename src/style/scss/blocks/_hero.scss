@@ -1,6 +1,7 @@
 .hero{
 
   position: relative;
+  margin-bottom: 65px;
 
   &__holder{
     display: flex;
@@ -26,7 +27,7 @@
   &__button-holder{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
     align-items: center;
     padding-bottom: 50px;
   }
@@ -34,6 +35,22 @@
   &__watch{
     font-family: 'Heebo', sans-serif;
     color: white;
+    position: relative;
+
+    &:hover{
+      color: #85a6ff;
+      transition: ease-in-out 0.3s;
+    }
+
+    &:before{
+      content: '';
+      background-image: url('../../../../src/img/watch.svg');
+      width: 25px;
+      height: 27px;
+      position: absolute;
+      left: -33px;
+      top: -4px;
+    }
   }
 
   &__sponsored-holder{
