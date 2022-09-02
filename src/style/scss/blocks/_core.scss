@@ -1,3 +1,69 @@
 .core{
   padding-bottom: 160px;
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 95px;
+    align-items: center;
+  }
+
+  &__column{
+    padding-bottom: 40px;
+    position: relative;
+
+    &:before{
+      content: '';
+      background-image: url("../../../../src/img/bag.svg");
+      position: absolute;
+      width: 57px;
+      height: 57px;
+      top: 0;
+      left: 10px;
+    }
+  }
+
+  &__column-2{
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(69, 88, 157, 0.07);
+    position: relative;
+
+    &:before{
+      content: '';
+      background-image: url("../../../../src/img/crown.svg");
+      position: absolute;
+      width: 57px;
+      height: 57px;
+      top: 25px;
+      left: 10px;
+    }
+  }
+
+  &__title{
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    padding-bottom: 54px;
+    max-width: 510px;
+  }
+
+  &__heading{
+    font-weight: 700;
+    font-size: 18px;
+    color: #0F2137;
+    padding-bottom: 20px;
+    padding-left: 86px;
+  }
+
+  &__text{
+    font-size: 15px;
+    line-height: 26px;
+    color: #343D48;
+    max-width: 355px;
+    padding-left: 86px;
+  }
 }

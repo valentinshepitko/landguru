@@ -51,21 +51,48 @@ img {
   background-size: cover;
 }
 
-.get-started{
+.subhead{
+  color: #244886;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+
+  &_centered{
+    text-align: center;
+    margin: 0 auto;
+    color: #244886;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+  }
+}
+
+.title{
+
+}
+
+.get-started {
   font-weight: 500;
   font-size: 16px;
   border: 1.5px solid #FFFFFF;
   border-radius: 50px;
   padding: 13px 31px;
   color: white;
+  background-color: #0F2137;
 
-  &:hover{
+  &:hover {
     background-color: white;
     color: #85a6ff;
     transition: ease-in-out 0.3s;
   }
 
-  &_white{
+  &_white {
     background-color: white;
     color: #0F2137;
     border: 1.5px solid #FFFFFF;
@@ -74,7 +101,23 @@ img {
     font-weight: 500;
     font-size: 16px;
 
-    &:hover{
+    &:hover {
+      background-color: #1a4fd0;
+      color: white;
+      transition: ease-in-out 0.3s;
+    }
+  }
+
+  &_transparent {
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50px;
+    padding: 13px 31px;
+    font-weight: 500;
+    font-size: 16px;
+
+    &:hover {
       background-color: #1a4fd0;
       color: white;
       transition: ease-in-out 0.3s;

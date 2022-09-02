@@ -1,0 +1,31 @@
+.smart{
+
+  padding-bottom: 220px;
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__title{
+    color: #0F2137;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    letter-spacing: -1.5px;
+    padding-bottom: 40px;
+    line-height: 55px;
+    max-width: 510px;
+  }
+
+  &__text{
+    color: #02073E;
+    font-size: 18px;
+    line-height: 42px;
+    max-width: 454px;
+    padding-bottom: 40px;
+  }
+
+  &__image{
+    max-width: 700px;
+  }
+}
